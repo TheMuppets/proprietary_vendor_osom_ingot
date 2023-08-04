@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<displayConfiguration>
+    <!-- root node for HBM-->
+    <highBrightnessMode enabled="true">
+        <!-- Transition point brightness from normal to HBM mode -->
+        <transitionPoint>0.80</transitionPoint>
+        <!-- Minimum lux to enter HBM -->
+        <minimumLux>10000</minimumLux>
+        <!-- Time limitation for HBM-->
+        <timing>
+            <timeWindowSecs>1800</timeWindowSecs> // Window in which we restrict HBM.
+            <timeMaxSecs>300</timeMaxSecs> // Maximum time of HBM allowed in that window.
+            <timeMinSecs>60</timeMinSecs> // Minimum time remaining required to switch HBM on for
+        </timing>
+        <!--Refresh rate limitation when the device is in HBM -->
+        <refreshRate>
+            <minimum>60</minimum>
+            <maximum>90</maximum>
+        </refreshRate> -->
+        <!-- Thermal limitation for HBM -->
+        <thermalStatusLimit>critical</thermalStatusLimit>
+        <!-- Low power mode limitation for HBM -->
+        <allowInLowPowerMode>false</allowInLowPowerMode>
+        <minimumHdrPercentOfScreen>0</minimumHdrPercentOfScreen>
+        <sdrHdrRatioMap>
+            <point>
+                <sdrNits>2.0</sdrNits>
+                <hdrRatio>2.25</hdrRatio>
+            </point>
+            <point>
+                <sdrNits>850.0</sdrNits>
+                <hdrRatio>2.25</hdrRatio>
+            </point>
+        </sdrHdrRatioMap>
+    </highBrightnessMode>
+</displayConfiguration>
