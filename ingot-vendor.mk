@@ -1332,10 +1332,10 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/lib64/vendor.qti.spu@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.spu@2.0.so
 
 PRODUCT_PACKAGES += \
-    libar-pal \
     libvmmem \
     libagm \
     libar-gsl \
+    libar-pal \
     libats \
     libfastcvopt \
     liblx-osal \
