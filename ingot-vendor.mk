@@ -903,7 +903,7 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/lib64/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvdsp_stub.so \
     vendor/osom/ingot/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
     vendor/osom/ingot/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
-    vendor/osom/ingot/proprietary/vendor/lib64/libgrpc++_unsecure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgrpc++_unsecure.so \
+    vendor/osom/ingot/proprietary/vendor/lib64/libgrpc++_unsecure_prebuilt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgrpc++_unsecure_prebuilt.so \
     vendor/osom/ingot/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/osom/ingot/proprietary/vendor/lib64/libhdr10plus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr10plus.so \
     vendor/osom/ingot/proprietary/vendor/lib64/libhdr_backlight_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_backlight_adapter.so \
