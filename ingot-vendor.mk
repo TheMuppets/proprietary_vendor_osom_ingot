@@ -276,6 +276,7 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/sns_tilt_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_sw_disabled.json \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/sns_tilt_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_sw_enabled.json \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
+    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/sns_transport_ppe.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_transport_ppe.json \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/waipio_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_ak991x_0.json \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/waipio_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_bu52053nvx_0.json \

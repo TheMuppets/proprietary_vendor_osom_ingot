@@ -4445,7 +4445,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamxcommonutils.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "libutils", "libutilscallstack", "libz", "libc", "libm", "libdl", ],
+			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "libutils", "libutilscallstack", "libqti_vndfwk_detect", "libz", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -7678,7 +7678,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqcrilNrSmsModule.so"],
-			shared_libs: ["qcrilInterfaces", "libqmi_cci", "libqmi_encdec", "libqmi_client_qmux", "libdiag", "libhardware_legacy", "libqmiservices", "librilqmimiscservices", "libqmi_client_helper", "libcutils", "liblog", "libutils", "libbase", "libsqlite", "qtiril-utils", "libqcrilNrQtiMutex", "libqcrilNrFramework", "libqcrilNrLogger", "qcrilNrQmiModule", "libril-db", "libQtiRilLoadable", "libril-legacy", "libc++", "libclang_rt.ubsan_standalone", "libc", "libm", "libdl", ],
+			shared_libs: ["qcrilInterfaces", "libqmi_cci", "libqmi_encdec", "libqmi_client_qmux", "libdiag", "libhardware_legacy", "libqmiservices", "librilqmimiscservices", "libqmi_client_helper", "libcutils", "liblog", "libutils", "libbase", "libsqlite", "qtiril-utils", "libqcrilNrQtiMutex", "libqcrilNrFramework", "libqcrilNrLogger", "qcrilNrQmiModule", "libril-db", "libQtiRilLoadable", "libril-legacy", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
