@@ -1249,22 +1249,22 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
-    android.hardware.light-service.osom \
-    android.hardware.security.keymint-service-qti \
-    c2_manifest_vendor \
-    c2_manifest_vendor_audio \
-    dataconnection-saidl \
-    manifest_android.hardware.drm-service.widevine \
-    manifest_lahaina_identity \
-    qtiradio-saidl \
-    vendor.qti.gnss-service \
-    vendor.qti.hardware.perf \
-    vendor.qti.hardware.power.powermodule \
-    vendor.qti.hardware.qconfig@1.0-service \
-    vendor.qti.hardware.radio.ims \
-    vendor.qti.hardware.radio.qtiradioconfig \
-    vendor.qti.hardware.servicetracker@1.2-service \
-    vendor.qti.hardware.vpp@2.0-service \
+    android.hardware.light-service.osom.xml \
+    android.hardware.security.keymint-service-qti.xml \
+    c2_manifest_vendor.xml \
+    c2_manifest_vendor_audio.xml \
+    dataconnection-saidl.xml \
+    manifest_android.hardware.drm-service.widevine.xml \
+    manifest_lahaina_identity.xml \
+    qtiradio-saidl.xml \
+    vendor.qti.gnss-service.xml \
+    vendor.qti.hardware.perf.xml \
+    vendor.qti.hardware.power.powermodule.xml \
+    vendor.qti.hardware.qconfig@1.0-service.xml \
+    vendor.qti.hardware.radio.ims.xml \
+    vendor.qti.hardware.radio.qtiradioconfig.xml \
+    vendor.qti.hardware.servicetracker@1.2-service.xml \
+    vendor.qti.hardware.vpp@2.0-service.xml \
     adsprpcd \
     cdsprpcd \
     cnd \
