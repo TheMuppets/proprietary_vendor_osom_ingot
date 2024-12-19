@@ -657,7 +657,6 @@ PRODUCT_PACKAGES += \
     libface3d_dev \
     libfastcvdsp_stub \
     libfastcvopt \
-    libgdtap \
     libgrpc++_unsecure_prebuilt \
     libhdr10plus \
     libhdr_backlight_adapter \
@@ -1355,7 +1354,6 @@ PRODUCT_PACKAGES += \
     wfdvndservice \
     wifidisplayhalservice \
     xtra-daemon \
-    xtwifi-client \
     dpmd \
     qccsyshal@1.2-service \
     qspmsvc \
