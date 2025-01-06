@@ -511,6 +511,7 @@ PRODUCT_PACKAGES += \
     deviceInfoServiceModuleNr \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
+    audio.primary.ingot \
     camera.qcom \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
