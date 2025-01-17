@@ -95,7 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.identity-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.identity-service-qti.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
-    vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.light-service.osom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.light-service.osom.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.security.keymint-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service-qti.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
@@ -1249,7 +1248,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
-    android.hardware.light-service.osom.xml \
     android.hardware.security.keymint-service-qti.xml \
     c2_manifest_vendor.xml \
     c2_manifest_vendor_audio.xml \
@@ -1279,7 +1277,6 @@ PRODUCT_PACKAGES += \
     android.hardware.identity-service-qti \
     android.hardware.keymaster@4.0-strongbox-service-qti \
     android.hardware.keymaster@4.1-service-qti \
-    android.hardware.light-service.osom \
     android.hardware.security.keymint-service-qti \
     qconfigservice \
     qcrilNrd \

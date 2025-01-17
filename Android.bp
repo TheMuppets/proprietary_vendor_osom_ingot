@@ -26649,15 +26649,6 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.light-service.osom.xml",
-    owner: "osom",
-    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.light-service.osom.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "android.hardware.security.keymint-service-qti.xml",
     owner: "osom",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service-qti.xml",
@@ -27246,34 +27237,6 @@ cc_prebuilt_binary {
                 "android.hardware.keymaster@4.1",
                 "libqtikeymaster4",
                 "libcrypto",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.light-service.osom",
-    owner: "osom",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.light-service.osom",
-            ],
-            shared_libs: [
-                "libbase",
-                "libbinder_ndk",
-                "android.hardware.light-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
