@@ -14954,7 +14954,6 @@ cc_prebuilt_library_shared {
                 "libQtiRilLoadable",
                 "libril-legacy",
                 "libc++",
-                "libclang_rt.ubsan_standalone",
                 "libc",
                 "libm",
                 "libdl",
