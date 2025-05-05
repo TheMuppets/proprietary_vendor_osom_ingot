@@ -198,7 +198,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/pwr/StandbyFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/StandbyFeature.xml \
     vendor/osom/ingot/proprietary/vendor/etc/pwr/VendorScenarioPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VendorScenarioPowerOptFeature.xml \
     vendor/osom/ingot/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
     vendor/osom/ingot/proprietary/vendor/etc/qcril_database/upgrade/config/10.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/10.0_config.sql \
     vendor/osom/ingot/proprietary/vendor/etc/qcril_database/upgrade/config/11.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/11.0_config.sql \
     vendor/osom/ingot/proprietary/vendor/etc/qcril_database/upgrade/config/12.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/12.0_config.sql \
