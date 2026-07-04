@@ -341,7 +341,6 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
-    libvmmem \
     vendor.qti.qspmhal@1.0 \
     btaudio_offload_if \
     com.qti.sensor.ingot_imx481 \
