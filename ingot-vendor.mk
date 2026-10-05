@@ -128,7 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
-    vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
@@ -485,7 +484,6 @@ PRODUCT_PACKAGES += \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
     fingerprint.betterlife \
-    vendor.qti.esepowermanager@1.1-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
@@ -607,7 +605,6 @@ PRODUCT_PACKAGES += \
     libdualcam_video_optical_zoom \
     libeai_fixed \
     libeai_float \
-    libesepmconfig \
     libeva \
     libeva_util \
     libeye_tracking_dsp_sample_stub \
@@ -881,8 +878,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.factory@2.5 \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.data.slm@1.0 \
-    vendor.qti.esepowermanager@1.0 \
-    vendor.qti.esepowermanager@1.1 \
     vendor.qti.gnss-V5-ndk \
     vendor.qti.gnss-service \
     vendor.qti.hardware.alarm@1.0 \
@@ -1199,7 +1194,6 @@ PRODUCT_PACKAGES += \
     qcrilNrd \
     vendor.display.color@1.0-service \
     vendor.qti.camera.provider@2.7-service_64 \
-    vendor.qti.esepowermanager@1.1-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.eid@1.0-service \
