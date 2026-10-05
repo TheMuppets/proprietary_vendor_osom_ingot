@@ -1248,7 +1248,6 @@ PRODUCT_PACKAGES += \
     time_daemon \
     vendor.dpmd \
     vendor.qti.qspmhal@1.0-service \
-    vendor_modprobe \
     vmmgr \
     vppservice \
     wfdhdcphalservice \
