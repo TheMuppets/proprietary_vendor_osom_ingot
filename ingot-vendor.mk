@@ -321,25 +321,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
-    eglSubDriverAndroid \
-    libEGL_adreno \
-    libGLESv1_CM_adreno \
-    libGLESv2_adreno \
-    libVkLayer_ADRENO_qprofiler \
-    libq3dtools_adreno \
-    libq3dtools_esx \
-    libCB \
-    libOpenCL \
-    libadreno_app_profiles \
-    libadreno_utils \
-    libgpudataproducer \
-    libgsl \
-    libkcl \
-    libkernelmanager \
-    libllvm-glnext \
-    libllvm-qcom \
-    libllvm-qgl \
-    vendor.qti.qspmhal@1.0 \
     btaudio_offload_if \
     com.qti.sensor.ingot_imx481 \
     com.qti.sensor.ingot_imx563 \
@@ -478,6 +459,13 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.uceservice@2.2 \
     com.qualcomm.qti.uceservice@2.3 \
     deviceInfoServiceModuleNr \
+    eglSubDriverAndroid \
+    libEGL_adreno \
+    libGLESv1_CM_adreno \
+    libGLESv2_adreno \
+    libVkLayer_ADRENO_qprofiler \
+    libq3dtools_adreno \
+    libq3dtools_esx \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
     camera.qcom \
@@ -511,6 +499,7 @@ PRODUCT_PACKAGES += \
     libAlacSwDec \
     libApeSwDec \
     libBtlFpHal \
+    libCB \
     libEvrcSwCodec \
     libFace3DTA \
     libFace3D_hlos \
@@ -520,6 +509,7 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
+    libOpenCL \
     libQ6MSFR_manager_stub \
     libQSEEComAPI \
     libQTEEConnector_listener \
@@ -527,6 +517,8 @@ PRODUCT_PACKAGES += \
     libQcelp13SwCodec \
     libQtiRilLoadable \
     libadm \
+    libadreno_app_profiles \
+    libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
     libaidenoiser \
@@ -611,7 +603,9 @@ PRODUCT_PACKAGES += \
     libface3d_dev \
     libfastcvdsp_stub \
     libfastcvopt \
+    libgpudataproducer \
     libgrpc++_unsecure_prebuilt \
+    libgsl \
     libhdr10plus \
     libhdr_backlight_adapter \
     libhdr_stub \
@@ -625,11 +619,16 @@ PRODUCT_PACKAGES += \
     libizat_core \
     libjnihelper \
     libjpege \
+    libkcl \
+    libkernelmanager \
     libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
     liblistensoundmodel2vendor \
+    libllvm-glnext \
+    libllvm-qcom \
+    libllvm-qgl \
     libloadalgo_stub \
     libloc_api_v02 \
     libloc_api_wds \
@@ -989,6 +988,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
     vendor.qti.qspmhal@1.0-impl \
+    vendor.qti.qspmhal@1.0 \
     vendor.qti.spu@1.0 \
     vendor.qti.spu@1.1 \
     vendor.qti.spu@2.0 \
@@ -1242,7 +1242,7 @@ PRODUCT_PACKAGES += \
     slim_daemon \
     spdaemon \
     sscrpcd \
-    ssgqmigd \
+    ssgqmigd64 \
     ssgtzd \
     ssr_setup \
     tftp_server \
@@ -1265,9 +1265,6 @@ PRODUCT_PACKAGES += \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
     system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
-    vendor_lib_libEGL_adreno_so \
-    vendor_lib_libGLESv2_adreno_so \
-    vendor_lib_libq3dtools_adreno_so \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
     vendor_lib64_libq3dtools_adreno_so
